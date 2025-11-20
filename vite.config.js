@@ -11,5 +11,6 @@ export default defineConfig({
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
+    base: "/Rock-Paper-Scissors-with-Vue/",
   },
 });
